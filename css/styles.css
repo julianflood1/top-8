@@ -1,20 +1,50 @@
-.friends img {
-  height: 200px;
+.friends {
+  height: 150px;
   width: 150px;
-  float: left;
-  padding: 20px;
-
+  /*float: left;*/
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: #2754af 2px solid;
+}
+.myspace {
+  height: 25px;
+  width: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  left: 50px;
 }
 body{
   margin: 20px;
 }
-
-.myspace img {
-  height: 23px;
-  width: 80px;
-  float: left;
-  display: block;
+p {
+  text-align: center;
+  color: #2754af;
+  font-weight: bold;
 }
-.myspace {
-  width: 100%;
+
+#luke {
+  text-align: left;
+  color: black;
+}
+.friends-span {
+  color: red;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 30px;
+  padding: 10px;
+  color: #d67246;
+  background-color: #ffcd96;
+}
+#view-friends {
+  color: red;
+  font-weight: bold;
+  padding-top: 30px;
+  font-size: 15px;
+  text-align: right;
 }
